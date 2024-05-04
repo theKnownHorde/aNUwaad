@@ -11,48 +11,45 @@
       margin-bottom: 1rem;
     }
 
-    h2 {
+   h2 {
       font-size: 2rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
     }
 
-    /* Link Styles */
+  /* Link Styles */
     a {
       color: #0366d6;
       text-decoration: none;
     }
 
-    a:hover {
+   a:hover {
       text-decoration: underline;
     }
 
-    /* Code Block Styles */
+  /* Code Block Styles */
     code {
       font-family: 'Courier New', Courier, monospace;
       background-color: #f0f0f0;
       padding: 0.2rem 0.5rem;
       border-radius: 3px;
     }
-
     /* List Styles */
     ul {
       list-style-type: none;
       padding-left: 0;
     }
-
     /* Step Styles */
     .step {
       margin-bottom: 1rem;
     }
 
-    /* Main Content Styles */
+  /* Main Content Styles */
     .container {
-      max-width: 800px;
+    max-width: 800px;
       margin: 0 auto;
       padding: 2rem;
     }
-
     /* Image Styles */
     img {
       max-width: 100%;
@@ -60,7 +57,6 @@
       display: block;
       margin: 1rem 0;
     }
-
     /* Code Block Styles */
     pre {
       background-color: #f0f0f0;
@@ -68,7 +64,6 @@
       border-radius: 5px;
       overflow-x: auto;
     }
-
     /* Environment Variable Styles */
     .env-variable {
       font-family: 'Courier New', Courier, monospace;
@@ -83,19 +78,15 @@
   <div class="container">
     <h1>aNUwaad</h1>
     <p>An AI Chat App Using MERN Stack</p>
-
     <h2>Demonstration</h2>
     <p><a href="https://github.com/theKnownHorde/aNUwaad/assets/108342131/075a10ce-6e25-40fc-9122-e437d7951070">View Demonstration</a></p>
-
     <h2>To Use the Project</h2>
-
     <div class="step">
       <h3>Step 1: Clone the Repository</h3>
       <p>Clone the repository to your local machine using the following command:</p>
       <pre><code>git clone &lt;repository_URL&gt;</code></pre>
       <p>Replace <code>&lt;repository_URL&gt;</code> with the URL of your Git repository.</p>
     </div>
-
     <div class="step">
       <h3>Step 2: Install Backend Dependencies</h3>
       <p>Navigate to the "Backend" directory:</p>
@@ -103,7 +94,6 @@
       <p>Install the required dependencies using npm:</p>
       <pre><code>npm install</code></pre>
     </div>
-
     <div class="step">
       <h3>Step 3: Install Frontend Dependencies</h3>
       <p>Navigate to the "Frontend" directory:</p>
@@ -111,7 +101,6 @@
       <p>Install the required dependencies using npm:</p>
       <pre><code>npm install</code></pre>
     </div>
-
     <div class="step">
       <h3>Step 4: Configure Environment Variables</h3>
       <p>Create a <code>.env</code> file in the "backend" directory (<code>aNUwaad/backend/.env</code>) to store important keys and configurations. Add the following variables:</p>
